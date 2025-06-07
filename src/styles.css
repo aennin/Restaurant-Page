@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "edunswatch";
+    src: url("./edunswacthandpre-variablefont_wght-webfont.woff2") format("woff2"),
+    url("./edunswacthandpre-variablefont_wght-webfont.woff") format("woff");
+    font-weight: bolder;
+}
+
+html, body {
+    background-color: rgb(5, 52, 5);
+    min-height: 100vh;
+}
+
+header {
+    margin: 20px 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: rgb(18, 212, 154);
+}
+
+.button:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    justify-content:flex-start;
+    
+}
+
+.roadhouse {
+    color: white;
+    font-family: "edunswatch";
+    font-size: larger;
+    font-weight: 900;
+    height: 40px;
+}
+
+#content.home {
+    min-height: 80vh;
+    display: grid;
+    grid-template: 2fr 1fr / 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    margin: 50px 50px;
+}
+
+#content.menu {
+    min-height: 80vh;
+    display: grid;
+    grid-template: 40px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    margin: 50px 50px;
+}
+
+#content.about {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img1 {
+    background-image: url("./img1.png");
+    background-size:cover;
+    
+}
+
+.img2 {
+    background-image: url("./img2.png");
+    background-size:cover;
+}
+
+.img3 {
+    background-image: url("./img3.png");
+    background-size:cover;
+}
+
+.category, .description {
+    background-color: rgb(18, 212, 154);
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.category:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.food-type{
+    background-color: rgb(18, 212, 154);
+    padding: 20px;
+    border-radius: 30%;
+    color: rgb(4, 3, 3);
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.food-type:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+#beary-veggie {
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+
+ #blt {
+    grid-column-start: 3;
+    grid-row-start: 6;
+}
+
+ #honeycomb {
+    grid-column-start: 3;
+    grid-row-start: 4;
+} 
+
+#bagel-lox {
+    grid-column-start: 3;
+    grid-row-start: 7;
+}
+
+#beary-bowl {
+    grid-column-start: 3;
+    grid-row-start: 8;
+}
+
+
+.address {
+    background-color: rgb(18, 212, 154);
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(4, 3, 3);
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
